@@ -55,7 +55,8 @@ To run this project locally:
    git clone https://github.com/tripcoded/demo_sih.git
 ✨ Contribution
 
-This was a SIH (Smart India Hackthon) project, and I developed the entire prototype myself. However, contributions and suggestions are welcome.
+This was a SIH (Smart India Hackthon) project, and I developed the entire prototype myself but it all was possible due to my passionate and hardowrking team
+. However, contributions and suggestions are welcome.
 
 📌 Contact
 
