@@ -1,4 +1,4 @@
-# Track My Bus — Amritsar
+# Track My Bus
 
 <div align="center">
 
