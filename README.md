@@ -122,26 +122,26 @@ The goal is to demonstrate how technology can enhance public transport visibilit
          │
          ▼
 ┌─────────────────────────────┐
-│   Frontend UI              │
-│   (HTML + CSS)            │
+│   Frontend UI               │
+│   (HTML + CSS)              │
 └────────┬────────────────────┘
          │
          ▼
 ┌─────────────────────────────┐
 │  JavaScript Logic           │
-│  (script.js)               │
+│  (script.js)                │
 └────────┬────────────────────┘
          │
          ▼
 ┌─────────────────────────────┐
-│  Data Layer                │
-│  (bus.json)                │
+│  Data Layer                 │
+│  (bus.json)                 │
 └────────┬────────────────────┘
          │
          ▼
 ┌─────────────────────────────┐
 │  Output & Notifications     │
-│  (Audio + UI Updates)      │
+│  (Audio + UI Updates)       │
 └─────────────────────────────┘
 ```
 
@@ -164,8 +164,7 @@ The goal is to demonstrate how technology can enhance public transport visibilit
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/tripcoded/demo_sih.git
-   cd demo_sih
+   git clone https://github.com/tripcoded/Track-My-Bus.git
    ```
 
 2. **Open the application:**
