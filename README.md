@@ -31,14 +31,20 @@ Welcome to the **TRACK MY BUS** project! This is a fully functional prototype we
 
 ---
 
-## 🔗 Live Demo
+## <a id="overview"></a> 📖 Overview
+
+This project demonstrates a smart bus tracking system with real-time monitoring capabilities.
+
+---
+
+## <a id="live-demo"></a> 🔗 Live Demo
 
 Check out the live version of the application here:  
 🌐 [Track My Bus Live Demo](https://track-my-bus-teal.vercel.app/)
 
 ---
 
-## 📸 Screenshots
+## <a id="screenshots"></a> 📸 Screenshots
 
 ![Track My Bus - Amritsar Interface](/screenshot.png)
 
@@ -46,7 +52,7 @@ Check out the live version of the application here:
 
 ---
 
-## 🧩 Problem Statement
+## <a id="problem-statement"></a> 🧩 Problem Statement
 
 In many cities and rural areas, public transportation systems face significant challenges:
 
@@ -59,7 +65,7 @@ In many cities and rural areas, public transportation systems face significant c
 
 ---
 
-## 💡 Solution Overview
+## <a id="solution-overview"></a> 💡 Solution Overview
 
 This project presents a **Smart Bus Monitoring & Alert System** prototype developed for Smart India Hackathon (SIH).
 
@@ -75,7 +81,7 @@ The goal is to demonstrate how technology can enhance public transport visibilit
 
 ---
 
-## ✨ Key Features
+## <a id="key-features"></a> ✨ Key Features
 
 | Feature | Description |
 |---------|-------------|
@@ -89,7 +95,7 @@ The goal is to demonstrate how technology can enhance public transport visibilit
 
 ---
 
-## 🛠 Tech Stack
+## <a id="tech-stack"></a> 🛠 Tech Stack
 
 **Frontend:**
 - **HTML5** – Semantic structure and markup
@@ -107,7 +113,7 @@ The goal is to demonstrate how technology can enhance public transport visibilit
 
 ---
 
-## 🏗 System Architecture
+## <a id="system-architecture"></a> 🏗 System Architecture
 
 ```
 ┌─────────────────┐
@@ -147,7 +153,7 @@ The goal is to demonstrate how technology can enhance public transport visibilit
 
 ---
 
-## ⚙ Installation & Setup
+## <a id="installation--setup"></a> ⚙ Installation & Setup
 
 ### Prerequisites
 
@@ -168,7 +174,7 @@ The goal is to demonstrate how technology can enhance public transport visibilit
 
 ---
 
-## ▶ Usage
+## <a id="usage"></a> ▶ Usage
 
 1. **Launch** the application in any modern web browser
 2. **Select** source and destination from dropdown menus
@@ -181,7 +187,7 @@ This demo is ideal for presentation, prototyping, and system extension.
 
 ---
 
-## 📁 Project Structure
+## <a id="project-structure"></a> 📁 Project Structure
 
 ```
 track-my-bus/
@@ -197,7 +203,7 @@ track-my-bus/
 
 ---
 
-## 🚀 Future Enhancements
+## <a id="future-enhancements"></a> 🚀 Future Enhancements
 
 | Feature | Priority |
 |---------|----------|
@@ -210,7 +216,7 @@ track-my-bus/
 
 ---
 
-## 👥 Team
+## <a id="team"></a> 👥 Team
 
 | Role | Name |
 |------|------|
@@ -235,7 +241,7 @@ Contributions are welcome! To contribute:
 
 ---
 
-## 📄 License
+## <a id="license"></a> 📄 License
 
 This project is licensed under the [MIT License](LICENSE) - feel free to use and modify it!
 
