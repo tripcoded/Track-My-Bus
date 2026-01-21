@@ -222,9 +222,6 @@ track-my-bus/
 | **Project Lead** | Ankit Singh Yadav |
 | **Maintainer** | Om Abhishek Tripathi |
 
-### Acknowledgments
-
-Special thanks to the Smart India Hackathon (SIH) initiative for providing the platform to develop innovative solutions for public transportation challenges.
 
 ---
 
