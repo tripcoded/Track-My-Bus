@@ -1,6 +1,6 @@
 # TRACK MY BUS WEBSITE
 
-Welcome to the **TRACK MY BUS** project! This is a fully functional prototype website developed to showcase [RIFT'S HACKATHON](https://tripcoded.github.io/demo_sih/) ideas and concepts.  
+Welcome to the **TRACK MY BUS** project! This is a fully functional prototype website developed to showcase ideas and concepts.  
 
 I personally **worked on the entire prototype**, designing and implementing all features to provide a smooth and interactive user experience. 
 
@@ -175,7 +175,7 @@ Team Members –
 COLLABORATOR-ANKIT SINGH YADAV 
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
-
+---
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE) - feel free to use and modify it!
