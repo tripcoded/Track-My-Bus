@@ -9,7 +9,7 @@
 
 </div>
 
-Welcome to the **TRACK MY BUS** project! This is a fully functional prototype website designed to showcase real-time bus tracking and monitoring capabilities for the Smart India Hackathon (SIH).
+Welcome to the **TRACK MY BUS** project! This is a fully functional prototype website designed to showcase real-time bus tracking and monitoring capabilities .
 
 ---
 
