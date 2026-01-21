@@ -21,7 +21,7 @@ Check out the live version of the website here:
 - [Tech Stack](#tech-stack)
 - [System Architecture](#system-architecture)
 - [Installation & Setup](#installation--setup)
-  - [Install Dependencies (If Applicable)](#install-dependencies-if-applicable)
+- [Install Dependencies (If Applicable)](#install-dependencies-if-applicable)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Screenshots / Live Demo](#screenshots--live-demo)
@@ -121,13 +121,13 @@ Use Live Server extension in VS Code
 
 ## ▶ Usage
 
-1.Open the application in a browser
+-Open the application in a browser
 
-2.View bus-related information displayed on the UI
+2-View bus-related information displayed on the UI
 
-3.Observe alerts or notifications triggered via audio
+-Observe alerts or notifications triggered via audio
 
-4.Modify bus.json to simulate different bus data
+-Modify bus.json to simulate different bus data
 
 This demo is designed for presentation, prototyping, and extension.
 
@@ -149,6 +149,7 @@ demo_sih/
 
 ## 📸 Screenshots / Live Demo
 
+📷 Screenshots can be added here---
 🌐 Live demo can be hosted using GitHub Pages---https://tripcoded.github.io/demo_sih/
 
 ---
@@ -170,9 +171,9 @@ demo_sih/
 ---
 
 ## 👥 Contributors
-TEAM TEAM-
-Team Members – 
-COLLABORATOR-ANKIT SINGH YADAV 
+-TEAM TEAM-
+-Team Members – 
+-COLLABORATOR-ANKIT SINGH YADAV 
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
 ---
