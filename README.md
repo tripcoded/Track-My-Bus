@@ -1,181 +1,250 @@
-# TRACK MY BUS WEBSITE
+# Track My Bus — Amritsar
 
-Welcome to the **TRACK MY BUS** project! This is a fully functional prototype website developed to showcase ideas and concepts.  
+<div align="center">
 
-I personally **worked on the entire prototype**, designing and implementing all features to provide a smooth and interactive user experience. 
+**A Smart Bus Monitoring & Real-Time Tracking System**
 
---- 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Active-brightgreen)](https://track-my-bus-teal.vercel.app/)
 
-## 🔗 Live Demo
+</div>
 
-Check out the live version of the website here:  
-[Demo SIH Live](https://tripcoded.github.io/demo_sih/)
+Welcome to the **TRACK MY BUS** project! This is a fully functional prototype website designed to showcase real-time bus tracking and monitoring capabilities for the Smart India Hackathon (SIH).
 
 ---
 
-## 📌 Table of Contents
+## 📋 Table of Contents
 
+- [Overview](#overview)
 - [Problem Statement](#problem-statement)
 - [Solution Overview](#solution-overview)
+- [Screenshots](#screenshots)
 - [Key Features](#key-features)
 - [Tech Stack](#tech-stack)
 - [System Architecture](#system-architecture)
 - [Installation & Setup](#installation--setup)
-  - [Install Dependencies (If Applicable)](#install-dependencies-if-applicable)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Screenshots / Live Demo](#screenshots--live-demo)
 - [Future Enhancements](#future-enhancements)
-- [Contributors](#contributors)
+- [Team](#team)
 - [License](#license)
+
+---
+
+## 🔗 Live Demo
+
+Check out the live version of the application here:  
+🌐 [Track My Bus Live Demo](https://track-my-bus-teal.vercel.app/)
+
+---
+
+## 📸 Screenshots
+
+![Track My Bus - Amritsar Interface](/screenshot.png)
+
+*Application Interface: Real-time bus tracking with route information and interactive map*
 
 ---
 
 ## 🧩 Problem Statement
 
-In many cities and rural areas, public transportation systems face challenges such as lack of real-time tracking, poor passenger communication, inefficient route monitoring, and absence of instant alerts for delays or changes. Passengers often wait without knowing the exact arrival time of buses, while authorities lack centralized visibility into bus operations.
+In many cities and rural areas, public transportation systems face significant challenges:
+
+- ❌ Lack of real-time bus tracking
+- ❌ Poor passenger communication
+- ❌ Inefficient route monitoring
+- ❌ Absence of instant alerts for delays or changes
+
+**Impact:** Passengers often wait without knowing exact arrival times, while authorities lack centralized visibility into bus operations.
 
 ---
 
-## 💡Solution Overview
+## 💡 Solution Overview
 
-This project presents a Smart Bus Monitoring & Alert System prototype developed as part of a Smart India Hackathon (SIH) demo.
+This project presents a **Smart Bus Monitoring & Alert System** prototype developed for Smart India Hackathon (SIH).
 
-The system provides:
-1.web-based interface to display bus-related nformation
+**Key Capabilities:**
 
-2.Real-time or simulated data using JSON
+1. **Web-based Interface** – Real-time bus information and route tracking
+2. **Data Management** – JSON-based data handling with easy API integration
+3. **Visual Tracking** – Interactive map and bus location visualization
+4. **Notifications** – Audio alerts for updates and delays
+5. **Responsive Design** – Optimized for all devices
 
-3.Visual representation of buses
-
-4.Audio notifications for alerts or updates
-
-The goal is to demonstrate how technology can enhance public transport visibility, passenger experience, and operational monitoring using a lightweight frontend-based solution.
+The goal is to demonstrate how technology can enhance public transport visibility, improve passenger experience, and streamline operational monitoring using a lightweight, frontend-focused solution.
 
 ---
 
 ## ✨ Key Features
 
-1.🚍 Bus information display using structured data
-
-2.🔔 Audio alert/notification system
-
-3.🖥️ Interactive and responsive UI
-
-4.📊 JSON-based data handling (easy to extend with APIs)
-
-5.⚡ Lightweight, fast, and browser-based
-
-6.🔧 Easy to deploy and customize
+| Feature | Description |
+|---------|-------------|
+| 🚍 **Bus Information Display** | Structured data for all bus routes and schedules |
+| 🔔 **Audio Notifications** | Instant alerts for updates, delays, and arrivals |
+| 🖥️ **Interactive UI** | User-friendly, responsive interface |
+| 📊 **JSON Data Handling** | Easy to extend and integrate with APIs |
+| ⚡ **Lightweight** | Fast performance, browser-based solution |
+| 🗺️ **Map Integration** | Visual representation of bus locations and routes |
+| 🔧 **Customizable** | Easy to deploy, modify, and extend |
 
 ---
 
 ## 🛠 Tech Stack
 
-The project uses modern and reliable technologies:
+**Frontend:**
+- **HTML5** – Semantic structure and markup
+- **CSS3** – Modern styling and responsive design
+- **JavaScript (ES6+)** – Dynamic behavior and interactivity
 
-- **HTML5** – Structure of the website  
-- **CSS3** – Styling and responsiveness  
-- **JavaScript** – Interactive features and dynamic behavior
+**Data & Tools:**
+- **JSON** – Bus data management
+- **Git & GitHub** – Version control
+- **VS Code** – Development environment
 
-Tools & Platforms:
-Git & GitHub
-VS Code
-REST APIs
+**Deployment:**
+- **Vercel** – Live hosting
+- **GitHub Pages** – Alternative hosting option
 
 ---
 
 ## 🏗 System Architecture
-1.User (Browser)
-↓
-2.Frontend UI (HTML + CSS)
-↓
-3.JavaScript Logic (script.js)
-↓
-4.Bus Data Source (bus.json)
-↓
-5.UI Update + Notification (notify.mp3)
 
-This modular structure allows easy future integration with:
+```
+┌─────────────────┐
+│  User Browser   │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────────────────┐
+│   Frontend UI              │
+│   (HTML + CSS)            │
+└────────┬────────────────────┘
+         │
+         ▼
+┌─────────────────────────────┐
+│  JavaScript Logic           │
+│  (script.js)               │
+└────────┬────────────────────┘
+         │
+         ▼
+┌─────────────────────────────┐
+│  Data Layer                │
+│  (bus.json)                │
+└────────┬────────────────────┘
+         │
+         ▼
+┌─────────────────────────────┐
+│  Output & Notifications     │
+│  (Audio + UI Updates)      │
+└─────────────────────────────┘
+```
 
-1.Live GPS APIs
-2.Backend servers
-3.Databases
+**Future Integration Points:**
+- ✅ Live GPS APIs
+- ✅ Backend servers (Node.js, Python)
+- ✅ Databases (MongoDB, Firebase)
+- ✅ Real-time data streaming
 
 ---
 
-##⚙ Installation & Setup
-Prerequisites
-1.Any modern web browser (Chrome, Edge, Firefox)
-2.Git (optional)
+## ⚙ Installation & Setup
 
-Steps:
-1.Clone the repository:git clone https://github.com/tripcoded/demo_sih.git
-2.Navigate to the project folder:cd demo_sih
-3.Open index.html in your browser:
-Double-click the file
-OR
-Use Live Server extension in VS Code
+### Prerequisites
+
+- Any modern web browser (Chrome, Edge, Firefox)
+- Git (optional, for cloning)
+
+### Steps
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/tripcoded/demo_sih.git
+   cd demo_sih
+   ```
+
+2. **Open the application:**
+   - **Option A:** Double-click `index.html`
+   - **Option B:** Use VS Code Live Server extension (right-click → Open with Live Server)
 
 ---
 
 ## ▶ Usage
 
-1.Open the application in a browser
+1. **Launch** the application in any modern web browser
+2. **Select** source and destination from dropdown menus
+3. **View** real-time bus information and route details
+4. **Receive** audio notifications for updates and alerts
+5. **Explore** the interactive map for bus locations
+6. **Modify** `bus.json` to test with different data
 
-2.View bus-related information displayed on the UI
-
-3.Observe alerts or notifications triggered via audio
-
-4.Modify bus.json to simulate different bus data
-
-This demo is designed for presentation, prototyping, and extension.
+This demo is ideal for presentation, prototyping, and system extension.
 
 ---
 
 ## 📁 Project Structure
 
-demo_sih/
+```
+track-my-bus/
 │
-├── index.html        # Main UI
-├── script.js         # Core logic and interactivity
-├── bus.json          # Bus data source
-├── bus.png           # Image asset
-├── notify.mp3        # Notification sound
-├── README.md         # Project documentation
-└── .github/          # GitHub configuration
-
----
-
-## 📸 Screenshots / Live Demo
-
-🌐 Live demo can be hosted using GitHub Pages---https://tripcoded.github.io/demo_sih/
+├── index.html           # Main application UI
+├── script.js            # Core logic and interactivity
+├── bus.json             # Bus data and routes
+├── bus.png              # Bus icon asset
+├── notify.mp3           # Notification sound
+├── README.md            # Project documentation
+└── LICENSE              # MIT License
+```
 
 ---
 
 ## 🚀 Future Enhancements
 
-🔹🔴 Real-time GPS-based bus tracking
-
-🔹📱 Mobile application support
-
-🔹☁️ Backend integration (Node.js / Firebase)
-
-🔹📡 Push notifications (SMS / App alerts)
-
-🔹📈 Admin dashboard for authorities
-
-🔹🧠 AI-based delay prediction
+| Feature | Priority |
+|---------|----------|
+| 🔴 Real-time GPS-based tracking | High |
+| 📱 Mobile application | High |
+| ☁️ Backend integration (Node.js / Firebase) | Medium |
+| 📡 Push notifications (SMS / App alerts) | Medium |
+| 📈 Admin dashboard for authorities | Medium |
+| 🧠 AI-based delay prediction | Low |
 
 ---
 
-## 👥 Contributors
-TEAM TEAM-
-Team Members – 
-COLLABORATOR-ANKIT SINGH YADAV 
+## 👥 Team
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+| Role | Name |
+|------|------|
+| **Project Lead** | Ankit Singh Yadav |
+| **Maintainer** | Om Abhishek Tripathi |
+
+### Acknowledgments
+
+Special thanks to the Smart India Hackathon (SIH) initiative for providing the platform to develop innovative solutions for public transportation challenges.
+
 ---
+
+## 🤝 Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add YourFeature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
+
+---
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE) - feel free to use and modify it!
+
+---
+
+<div align="center">
+
+**Made with ❤️ by the Track My Bus Team**
+
+[⬆ back to top](#track-my-bus--amritsar)
+
+</div>
