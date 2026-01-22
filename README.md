@@ -221,6 +221,8 @@ track-my-bus/
 |------|------|
 | **Project Lead** | Ankit Singh Yadav |
 | **Maintainer** | Om Abhishek Tripathi |
+| **Member** | Kartikey Kumar |
+| **Member**  | Ananya Singh |
 
 
 ---
